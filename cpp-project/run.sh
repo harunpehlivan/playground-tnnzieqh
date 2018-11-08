@@ -1,4 +1,4 @@
 #!/bin/sh
 
-make
-./word_count &> /dev/null
+make &> /dev/null
+./word_count
