@@ -226,7 +226,7 @@ void print(WordCount const& entries)
 
 int main()
 {
-    auto filesStream = std::ifstream{"yourCode.txt"};
-    auto const code = std::string(std::istreambuf_iterator<char>(filesStream), std::istreambuf_iterator<char>());
+    auto fileStream = std::ifstream{"yourCode.txt"};
+    auto const code = std::string(std::istreambuf_iterator<char>(fileStream), std::istreambuf_iterator<char>());
     print(getWordCount(code));
 }
