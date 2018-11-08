@@ -1,1 +1,21 @@
 ENTER YOUR CODE HERE AND PRESS "Run"
+
+For instance:
+
+#include <iostream>
+ 
+int main()
+{
+int i = 0;
+i +=             1      +     1 + 1 + 1;
+i +=         1 + 1      +   1 +     1 + 1;
+i +=       1   + 1      +          1 + 1;
+i +=     1     + 1      +         1 + 1;
+i +=     1 + 1 + 1      +        1 + 1;
+i +=     1 + 1 + 1 + 1  +       1 + 1;
+i +=         1 + 1      +      1 + 1;
+i +=         1 + 1      +     1 + 1;
+i +=         1 + 1      +   1 + 1 + 1 + 1;
+    
+    std::cout << i << '\n';
+}
