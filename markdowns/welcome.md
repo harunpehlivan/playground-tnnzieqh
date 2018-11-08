@@ -1,4 +1,4 @@
 # Word Count
 
-@[]({"stubs": ["src/WordCount.cpp","yourCode.txt"],"command": "sh /project/target/run.sh"})
+@[]({"stubs": ["yourCode.txt","src/WordCount.cpp"],"command": "sh /project/target/run.sh"})
 
