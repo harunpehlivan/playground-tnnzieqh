@@ -184,7 +184,7 @@ using WordCount = std::vector<std::pair<std::string, WordStats>>;
 
 WordCount getWordCount(std::string const& code)
 {
-    auto const words = getWordDataFromCode<HowToDelimitWords::WordsInCamelCase>(code);
+    auto const words = getWordDataFromCode<HowToDelimitWords::EntireWords>(code);
     auto const wordCount = wordStats(words, numberOfLines(code));
     
     auto sortedWordCount = WordCount(begin(wordCount), end(wordCount));
