@@ -1,6 +1,6 @@
 title: C++ Project
 plan:
-- title: Welcome
+- title: Word Count in Code
   statement: markdowns/welcome.md
 projects:
   cpp:
