@@ -1,4 +1,4 @@
 #!/bin/sh
 
-make && ./word_count
-echo "This is a test"
+make
+./word_count
