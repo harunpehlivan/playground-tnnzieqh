@@ -208,7 +208,7 @@ void print(WordCount const& entries)
     << '|'
     << std::setw(11) << std::right << "proportion"
     << '\n';
-    std::cout << std::string(longestWordSize + 1 + 1 + 4 + 1 + 4, '-') << '\n';
+    std::cout << std::string(longestWordSize + 1 + 1 + 4 + 1 + 4 + 1 + 11, '-') << '\n';
     
     for (auto const& entry : entries)
     {
